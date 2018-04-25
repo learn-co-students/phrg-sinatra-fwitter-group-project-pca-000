@@ -18,3 +18,5 @@ project:
     - Blank tweets are not saved
 resources:
   - 0
+
+parent_template: git@github.com:learn-co-curriculum/sinatra-fwitter-group-project.git
