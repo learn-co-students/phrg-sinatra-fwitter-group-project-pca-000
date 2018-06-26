@@ -1,20 +1,23 @@
-source 'http://rubygems.org'
+# frozen_string_literal: true
 
-gem 'sinatra'
-gem 'activerecord', :require => 'active_record'
-gem 'sinatra-activerecord', :require => 'sinatra/activerecord'
-gem 'rake'
-gem 'require_all'
-gem 'sqlite3'
-gem 'thin'
-gem 'shotgun'
-gem 'pry'
-gem 'bcrypt'
+source "http://rubygems.org"
+
+gem "activerecord", require: "active_record"
+gem "bcrypt"
+gem "pry"
+gem "rake"
+gem "require_all"
+gem "rubocop"
+gem "shotgun"
+gem "sinatra"
+gem "sinatra-activerecord", require: "sinatra/activerecord"
+gem "sqlite3"
+gem "thin"
 gem "tux"
 
 group :test do
-  gem 'rspec'
-  gem 'capybara'
-  gem 'rack-test'
-  gem 'database_cleaner', git: 'https://github.com/bmabey/database_cleaner.git'
+  gem "capybara"
+  gem "database_cleaner", git: "https://github.com/bmabey/database_cleaner.git"
+  gem "rack-test"
+  gem "rspec"
 end
