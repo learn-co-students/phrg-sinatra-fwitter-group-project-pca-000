@@ -6,6 +6,7 @@ AllCops:
     - 'spec/*'
     - 'spec/**/*'
     - 'vendor/**/*'
+    - 'db/schema.rb'
 
 Layout/AccessModifierIndentation:
   EnforcedStyle: outdent
