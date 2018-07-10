@@ -9,12 +9,12 @@ class ApplicationController < Sinatra::Base
     enable :sessions
     set :session_secret, "secret"
 
-    get '/' do
+    get "/" do
       erb :index
     end
 
     def logged_in?
-      !!current_user
+      current_user.present?
     end
 
     def current_user
@@ -22,4 +22,3 @@ class ApplicationController < Sinatra::Base
     end
   end
 end
-
