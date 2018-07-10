@@ -4,6 +4,7 @@ source "http://rubygems.org"
 
 gem "activerecord", require: "active_record"
 gem "bcrypt"
+gem "byebug"
 gem "pry"
 gem "rake"
 gem "require_all"
