@@ -158,4 +158,7 @@ You'll want to create two helper methods `current_user` and `logged_in?`. You'll
 
 It's especially important that a user should not be able to edit or delete the tweets created by a different user. A user can only modify their own tweets.
 
+## Does this need an update?
+Please open a [GitHub issue](https://github.com/learn-co-curriculum/phrg-sinatra-fwitter-group-project/issues) or [pull-request](https://github.com/learn-co-curriculum/phrg-sinatra-fwitter-group-project/pulls). Provide a detailed description that explains the issue you have found or the change you are proposing. Then "@" mention your instructor on the issue or pull-request, and send them a link via Connect.
+
 <p data-visibility='hidden'>PHRG Fwitter Group Project</p>
