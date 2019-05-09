@@ -1,0 +1,8 @@
+Welcome, <%= @user.username %>
+<ul><% User.all.each do |user| %>
+  <li><% user.tweets.each do |tweet| %>
+      <%= tweet.content %>
+      <%end%>
+  </li>
+  <%end%>
+</ul>

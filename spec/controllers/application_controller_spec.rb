@@ -1,4 +1,4 @@
-require 'spec_helper'
+  require 'spec_helper'
 
 describe ApplicationController do
 
@@ -49,6 +49,7 @@ describe ApplicationController do
 
     it 'does not let a user sign up without a password' do
       params = {
+
         :username => "skittles123",
         :email => "skittles@aol.com",
         :password => ""
