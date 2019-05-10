@@ -1,6 +1,4 @@
-<h1>Welcome, <%= User.username %></h1>
-<h3>Tweet</h3>
-  <form action="/tweets" method="POST">
-  <input type="text" name="content" placeholder="Content:">
-  <input type="submit" value="Submit">
-</form>
+<h1>Welcome, <%= current_user.username %></h1>
+<% @tweets.each do |tweet| %>
+  <%= tweet.content %>
+<% end %>
